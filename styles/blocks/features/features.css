@@ -1,0 +1,26 @@
+.features {
+  margin-top: -160px;
+  min-height: 400px;
+  background-color: red;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 500px;
+  z-index: -1; }
+  .features__bcg {
+    width: 30%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+            clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    height: 100%; }
+    .features__bcg-img {
+      height: 100%; }
+  .features__title {
+    margin-bottom: 69px; }
+  .features__icon {
+    width: 64px;
+    height: 64px;
+    background-color: #fff; }
+
+/*# sourceMappingURL=features.css.map */
