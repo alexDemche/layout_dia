@@ -12,7 +12,7 @@
 
 <body id="body">
   <!-- Start .header -->
-  <header class="header">
+  <header class="header" id="header">
   <div class="container">
     <nav class="header__nav">
       <div class="header__logo">
@@ -20,22 +20,27 @@
       </div>
 
       <ul id="menu" class="menu">
-        <li class="menu__li"><a href="#" class="menu__link">Home</a></li>
-        <li class="menu__li"><a href="#" class="menu__link">About us</a></li>
-        <li class="menu__li"><a href="#" class="menu__link">Services</a></li>
-        <li class="menu__li"><a href="#" class="menu__link">Work</a></li>
-        <li class="menu__li"><a href="#" class="menu__link">Contact Us</a></li>
-        <li class="menu__li"><a href="#" class="menu__link">Hire us</a></li>
+        <li class="menu__li"><a href="#header__title" class="menu__link">Home</a></li>
+        <li class="menu__li"><a href="#process" class="menu__link">About us</a></li>
+        <li class="menu__li"><a href="#what-we-do" class="menu__link">Services</a></li>
+        <li class="menu__li"><a href="#features" class="menu__link">Work</a></li>
+        <li class="menu__li"><a href="#footer__top" class="menu__link">Contact Us</a></li>
+        <li class="menu__li"><a href="#apply" class="menu__link">Hire us</a></li>
       </ul>
     </nav>
 
-    <h1 class="header__title">Global digital agency</h1>
+    <h1 class="header__title" id="header__title">Global digital agency</h1>
     <p class="header__subtitle">
       By the same illusion which lifts the horizon of the sea to the level
       of the spectator on a hillside, the sable cloud beneath.
     </p>
     <button type="button" class="button header__button">Learn more</button>
+
     <div class="slider">
+      <div class="slider__text-block">
+        <div class="slider__title">Intro</div>
+        <div class="slider__subtitle">By the same illusion which</br> lifts the horizon</div>
+      </div>
       <img src="./images/Photo.png" alt="" class="slider__img">
 
       <button type="button" class="slider__button slider__button--left">
@@ -75,14 +80,13 @@
   <!-- END .welcome -->
 
   <!-- Start .what-we-do -->
-  <section class="what-we-do">
+  <section class="what-we-do" id="what-we-do">
   <div class="container">
     <h2 class="what-we-do__title">What we do</h2>
     <div class="what-we-do__cards">
       <div class="what-we-do__card">
         <div class="what-we-do__photo">
-          <img src="https://freshome.com/wp-content/uploads/2015/07/online-virtual-room-programs-roomstyler-2.png"
-               alt="" class="what-we-do__img">
+          <img src="./images/what-we-do/what-3.jpg" alt="" class="what-we-do__img">
         </div>
         <h3 class="what-we-do__subtitle">
           By the same illusion which lifts the horizon.
@@ -95,8 +99,7 @@
 
       <div class="what-we-do__card">
         <div class="what-we-do__photo">
-          <img src="https://freshome.com/wp-content/uploads/2015/07/online-virtual-room-programs-roomstyler-2.png"
-               alt="" class="what-we-do__img">
+          <img src="./images/what-we-do/what-1.jpg" alt="" class="what-we-do__img">
         </div>
         <h3 class="what-we-do__subtitle">
           By the same illusion which lifts the horizon.
@@ -109,8 +112,7 @@
 
       <div class="what-we-do__card">
         <div class="what-we-do__photo">
-          <img src="https://freshome.com/wp-content/uploads/2015/07/online-virtual-room-programs-roomstyler-2.png"
-               alt="" class="what-we-do__img">
+          <img src="./images/what-we-do/what-2.jpg" alt="" class="what-we-do__img">
         </div>
         <h3 class="what-we-do__subtitle">
           By the same illusion which lifts the horizon.
@@ -127,7 +129,7 @@
   <!-- END .what-we-do -->
 
   <!-- Start .procces -->
-  <section class="process">
+  <section class="process" id="process">
   <div class="container">
     <div class="process__name">
       <div class="process__icon">
@@ -162,8 +164,8 @@
         <!-- ./ 1 card -->
         <!-- 2 card -->
         <div class="process__card">
-          <div class="process__circle">
-            <div class="process__circle-number">2</div>
+          <div class="process__circle process__circle--2">
+            <div class="process__circle-number process__circle-number--2">2</div>
           </div>
           <div class="process__desc">
             By the same illusion which lifts the horizon of the sea to the
@@ -173,8 +175,8 @@
         <!-- ./ 2 card -->
         <!-- 3 card -->
         <div class="process__card process__card--mr process__card--mt">
-          <div class="process__circle">
-            <div class="process__circle-number">3</div>
+          <div class="process__circle process__circle--3">
+            <div class="process__circle-number process__circle-number--3">3</div>
           </div>
           <div class="process__desc">
             By the same illusion which lifts the horizon of the sea to the
@@ -184,8 +186,8 @@
         <!-- ./ 3 card -->
         <!-- 4 card -->
         <div class="process__card">
-          <div class="process__circle">
-            <div class="process__circle-number">4</div>
+          <div class="process__circle process__circle--4">
+            <div class="process__circle-number process__circle-number--4">4</div>
           </div>
           <div class="process__desc">
             By the same illusion which lifts the horizon of the sea to the
@@ -200,11 +202,11 @@
 
   <!-- END .procces -->
 
-  <!-- Start .procces -->
-  <div class="features">
+  <!-- Start .features -->
+  <div class="features" id="features">
+
   <div class="features__bcg">
-    <img src="https://beakon.com.au/wp-content/uploads/2017/05/instacart-office-design-10.jpg"
-         alt="" class="features__bcg-img">
+    <img src="./images/Co-workers-working-in-start-up-office1.jpg" alt="" class="features__bcg-img">
   </div>
 
   <div class="container">
@@ -215,24 +217,238 @@
       <div class="process__text process__text--color-white">Features</div>
     </div>
 
-    <h2 class="futures__title">
+    <h2 class="features__title">
       By the same illusion <br> which lifts the horizon.
     </h2>
-    <div class="futures__card">
-      <div class="futures__icon">
+    <div class="features__card">
+      <div class="features__icon">
         <img src="./images/icons/announcement-speaker.svg" alt="" class="futures__icon-img">
       </div>
-      <p class="futures__card-text"></p>
+      <p class="features__card-text">
+        By the same illusion which lifts the horizon of the sea to the level of the spectator on a
+        hillside, the sable cloud beneath was dished out.
+      </p>
+    </div>
+
+    <div class="features__card">
+      <div class="features__icon">
+        <img src="./images/icons/announcement-speaker.svg" alt="" class="futures__icon-img">
+      </div>
+      <p class="features__card-text">
+        By the same illusion which lifts the horizon of the sea to the level of the spectator on a
+        hillside, the sable cloud beneath was dished out.
+      </p>
+    </div>
+
+    <div class="features__card">
+      <div class="features__icon">
+        <img src="./images/icons/announcement-speaker.svg" alt="" class="futures__icon-img">
+      </div>
+      <p class="features__card-text">
+        By the same illusion which lifts the horizon of the sea to the level of the spectator on a
+        hillside, the sable cloud beneath was dished out.
+      </p>
     </div>
   </div>
 </div>
 
-  <!-- END .procces -->
+  <!-- END .features -->
 
-  <!-- fueters -->
+  <!-- Start .testimonials -->
+  <section class="testimonials">
+  <div class="container">
+    <div class="process__name">
+      <div class="process__icon">
+        <img src="./images/icons/dots.svg" alt="dots">
+      </div>
+      <div class="process__text">Testimonials</div>
+    </div>
 
+    <h2 class="testimonials__title">
+      By the same illusion</br> which lifts the horizon.
+    </h2>
 
-  <!-- ./ fueters -->
+    <div class="testimonials__cards">
+      <div class="testimonials__card">
+        <div class="testimonials__avatar">
+          <div class="testimonials__line testimonials__line--1"></div>
+          <div class="testimonials__photo-wrapper">
+            <div class="testimonials__photo testimonials__photo--1"></div>
+          </div>
+        </div>
+
+        <p class="testimonials__desc">
+          “By the same illusion which lifts the horizon of the sea to the level of the spectator on
+          a hillside.”
+        </p>
+        <div class="testimonials__hr"></div>
+        <p class="testimonials__name">John Wayne</p>
+        <p class="testimonials__position">CEO</p>
+      </div>
+      <!-- ./ card 1 -->
+
+      <div class="testimonials__card">
+        <div class="testimonials__avatar">
+          <div class="testimonials__line testimonials__line--2"></div>
+          <div class="testimonials__photo-wrapper">
+            <div class="testimonials__photo testimonials__photo--2"></div>
+          </div>
+        </div>
+
+        <p class="testimonials__desc">
+          “By the same illusion which lifts the horizon of the sea to the level of the spectator on
+          a hillside.”
+        </p>
+        <div class="testimonials__hr"></div>
+        <p class="testimonials__name">John Wayne</p>
+        <p class="testimonials__position">CEO</p>
+      </div>
+      <!-- ./ card 2 -->
+
+      <div class="testimonials__card">
+        <div class="testimonials__avatar">
+          <div class="testimonials__line testimonials__line--3"></div>
+          <div class="testimonials__photo-wrapper">
+            <div class="testimonials__photo testimonials__photo--3"></div>
+          </div>
+        </div>
+
+        <p class="testimonials__desc">
+          “By the same illusion which lifts the horizon of the sea to the level of the spectator on
+          a hillside.”
+        </p>
+        <div class="testimonials__hr"></div>
+        <p class="testimonials__name">John Wayne</p>
+        <p class="testimonials__position">CEO</p>
+      </div>
+      <!-- ./ card 3 -->
+    </div>
+  </div>
+</section>
+
+  <!-- END .testimonials -->
+
+  <!-- Start .apply -->
+  <section class="apply" id="apply">
+
+  <ul class="shapes">
+    <li class="shapes__item shapes__item--1"></li>
+    <li class="shapes__item shapes__item--2"></li>
+    <li class="shapes__item shapes__item--3"></li>
+    <li class="shapes__item shapes__item--4"></li>
+    <li class="shapes__item shapes__item--5"></li>
+    <li class="shapes__item shapes__item--6"></li>
+    <li class="shapes__item shapes__item--7"></li>
+    <li class="shapes__item shapes__item--8"></li>
+    <li class="shapes__item shapes__item--9"></li>
+    <li class="shapes__item shapes__item--10"></li>
+    <li class="shapes__item shapes__item--11"></li>
+    <li class="shapes__item shapes__item--12"></li>
+    <li class="shapes__item shapes__item--13"></li>
+    <li class="shapes__item shapes__item--14"></li>
+  </ul>
+
+  <h2 class="apply__title">
+    Vision, Passion, Results
+  </h2>
+  <p class="apply__subtitle">
+    By the same illusion which lifts the horizon of the sea to the level of</br> the spectator on a
+    hillside, the sable cloud beneath.
+  </p>
+  <button type="button" class="button apply__button">Apply</button>
+</section>
+
+  <!-- END .apply -->
+
+  <!-- Start .footer -->
+  <footer class="footer" id="footer">
+  <div class="container">
+    <div class="footer__top" id="footer__top">
+      <div class="message">
+        <div class="process__name process__name--mb">
+          <div class="process__icon">
+            <img src="./images/icons/dots.svg" alt="dots">
+          </div>
+          <div class="process__text">Send us a message</div>
+        </div>
+
+        <form class="form">
+          <div class="form__field">
+            <input type="email" placeholder="Your email" class="form__input" name="email" required>
+          </div>
+          <div class="form__field">
+            <input type="text" placeholder="Your name" class="form__input" name="name">
+          </div>
+          <div class="form__field form__field--last">
+            <input type="text" placeholder="Your message" class="form__input" name="message">
+          </div>
+
+          <div class="form__submit">
+            <button type="submit" class="button form__button">Send</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="contact">
+        <div class="process__name">
+          <div class="process__icon">
+            <img src="./images/icons/dots.svg" alt="dots">
+          </div>
+          <div class="process__text">Contact us</div>
+        </div>
+
+        <h2 class="contact__title">
+          By the same illusion which lifts the horizon.
+        </h2>
+        <p class="contact__slogan">call us</p>
+        <a href="tel:654 321 987" class="contact__tel">654 321 987</a>
+        <p class="contact__slogan">Visit us</p>
+        <a href="https://goo.gl/maps/9uG9mGEH6FZsdTZc9" target="_blank" class="contact__map">
+          2905 West Drive,</br> Buffalo Grove
+        </a>
+
+        <div class="contact__social-icons">
+          <a href="//twitter.com" target="_blank" class="contact__social-icon">
+            <img src="./images/icons/twitter.svg" alt="twitter icon">
+          </a>
+          <a href="//instagram.com" target="_blank" class="contact__social-icon">
+            <img src="../images/icons/instagram.svg" alt="instagram icon">
+          </a>
+          <a href="//facebook.com" target="_blank" class="contact__social-icon">
+            <img src="../images/icons/facebook.svg" alt="facebook icon">
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- ./ footer__top -->
+
+    <div class="footer__bottom">
+      <a href="mailto:mail@example.com" class="footer__designed" target="_blank">
+        Design by @mariuszdaniel
+      </a>
+      <ul id="secondary-menu" class="secondary-menu">
+        <li class="secondary-menu__li"><a href="#header" class="secondary-menu__link">Home</a></li>
+        <li class="secondary-menu__li">
+          <a href="#header__title" class="secondary-menu__link">About us</a>
+        </li>
+        <li class="secondary-menu__li">
+          <a href="#what-we-do" class="secondary-menu__link">Services</a>
+        </li>
+        <li class="secondary-menu__li">
+          <a href="#features" class="secondary-menu__link">Work</a>
+        </li>
+        <li class="secondary-menu__li">
+          <a href="#apply" class="secondary-menu__link">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+    <!-- ./ footer__bottom -->
+  </div>
+  <!-- ./ container -->
+</footer>
+
+  <!-- END .footer -->
+
   <div class="burger" id="burger">
     <div class="burger__bar js-burger__bar">
     </div>
