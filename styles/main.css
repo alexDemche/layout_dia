@@ -467,6 +467,9 @@ svg {
         -ms-flex-align: center;
             align-items: center;
     margin-bottom: 1.9rem; }
+    @media screen and (max-width: 576px) {
+      .process__name--contact {
+        margin-bottom: 8rem; } }
     .process__name--mb {
       margin-bottom: 10.4rem; }
   .process__icon {
@@ -1183,40 +1186,6 @@ svg {
     .form__button:hover {
       background-color: #1262cd; }
 
-/* All margins top / bottom and paddings top / bottom - in REM */
-/* All margins left / right - in  VW */
-html {
-  font-size: 62.5%;
-  line-height: 1.5; }
-  @media screen and (max-width: 1440px) {
-    html {
-      font-size: 56.25%; } }
-  @media screen and (max-width: 1280px) {
-    html {
-      font-size: 50%; } }
-
-body {
-  font-family: "Muli", sans-serif;
-  font-weight: 400;
-  color: #253757;
-  background-color: #fcfcfd;
-  font-size: 1.6rem; }
-
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 100%;
-  max-width: 1176px;
-  margin: auto; }
-  @media screen and (max-width: 1366px) {
-    .container {
-      max-width: 1060px; } }
-  @media screen and (max-width: 1280px) {
-    .container {
-      max-width: 1000px; } }
-
-/* fetures */
-/* ./ fetures */
 .burger {
   height: 56px;
   width: 100px;
@@ -1273,6 +1242,36 @@ body {
       right: 0;
       -webkit-transform-origin: right;
               transform-origin: right; }
+
+html {
+  font-size: 62.5%;
+  line-height: 1.5; }
+  @media screen and (max-width: 1440px) {
+    html {
+      font-size: 56.25%; } }
+  @media screen and (max-width: 1280px) {
+    html {
+      font-size: 50%; } }
+
+body {
+  font-family: "Muli", sans-serif;
+  font-weight: 400;
+  color: #253757;
+  background-color: #fcfcfd;
+  font-size: 1.6rem; }
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  max-width: 1176px;
+  margin: auto; }
+  @media screen and (max-width: 1366px) {
+    .container {
+      max-width: 1060px; } }
+  @media screen and (max-width: 1280px) {
+    .container {
+      max-width: 1000px; } }
 
 /* body no scroll */
 .js-no-scroll {
